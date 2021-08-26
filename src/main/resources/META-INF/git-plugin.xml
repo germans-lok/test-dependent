@@ -1,0 +1,7 @@
+<idea-plugin>
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity
+                id="i18nally-dumb"
+                implementation="com.github.germanslok.testdependent.GitDumbPostStartupActivity"/>
+    </extensions>
+</idea-plugin>

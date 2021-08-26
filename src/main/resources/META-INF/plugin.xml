@@ -16,4 +16,16 @@
         <listener class="com.github.germanslok.testdependent.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity
+                id="i18nally-dumb"
+                implementation="com.github.germanslok.testdependent.CommonDumbPostStartupActivity"/>
+    </extensions>
+
+    <depends optional="true" config-file="yaml.xml">org.jetbrains.plugins.yaml</depends>
+
+
+
+
 </idea-plugin>
