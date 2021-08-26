@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.germanslok.testdependent.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.germanslok.testdependent.MyBundle
 
 class MyApplicationService {
 
